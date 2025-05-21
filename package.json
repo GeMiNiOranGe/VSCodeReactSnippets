@@ -1,0 +1,20 @@
+{
+  "name": "vscode-react-snippets",
+  "displayName": "React & React Native Snippets (TypeScript/JavaScript, TSDoc/JSDoc)",
+  "description": "Snippets for React and React Native (TypeScript/JavaScript, TSDoc/JSDoc)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript, javascript, reacttypescript, reactjavascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
